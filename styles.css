@@ -85,6 +85,20 @@ li a {
 }
 /*Above is Commented out in html*/
 
+button {
+    background:    #c00;
+    background:    -webkit-linear-gradient(#c00, #600);
+    background:    linear-gradient(#c00, #600);
+    border-radius: 999px;
+    color:         #f6f4f4;
+    padding:       10px 100px;
+    font:          normal 700 24px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    text-shadow:   1px 1px 0 #000;
+    /* margin-left: 80px; */
+    margin-top:10px;
+  }
+
 /*---Media Queries ---*/
 @media (min-width: 769px) {
 .wrap {
