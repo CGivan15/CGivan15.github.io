@@ -31,6 +31,7 @@ li a {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    width: 95%;
 }
 
 /* Style the links inside the navigation bar */
@@ -105,10 +106,29 @@ button {
     min-height: calc(100vh - 89px);
 }
 .container{
-    width: 40%;
+    width: 100%;
     max-width: 1000px;
     margin: Left;
 }
+.col{
+    display: inline-block;
+    width: 47%;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+}
+
+.name,
+.main-nav,
+.main-nav li {
+    display: inline;
+}
+
+.name {
+    width: 240px;
+    margin: 50px 0;
 }
 
 .main-footer {
@@ -123,3 +143,4 @@ button {
     text-align: center;
     margin-top: -50px;
 }
+
