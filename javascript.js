@@ -15,7 +15,7 @@ function myMenu(){
     } else{
         x.className = "topnav";
     }
-};
+}
 
 // appear function used for Header and main image
 function appear(elm, i, step, speed){
@@ -42,4 +42,4 @@ function appear(elm, i, step, speed){
         //older IE
         elm.style.filter = 'alpha(opacity=' + opacity*100 + ')';
     }, speed);
-};
+}
